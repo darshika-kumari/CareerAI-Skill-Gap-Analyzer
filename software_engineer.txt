@@ -1,0 +1,29 @@
+ROLE: Software Engineer
+
+CORE SKILLS:
+Programming, Data Structures and Algorithms, Object-Oriented Programming,
+Databases, SQL, Git, Software Development and Problem Solving.
+
+IMPORTANT CONCEPTS:
+Arrays, strings, linked lists, stacks, queues, trees, graphs,
+sorting, searching, recursion, complexity analysis, OOP,
+database fundamentals and software design.
+
+PROGRAMMING:
+C++, Java, Python or similar programming languages.
+
+PROJECT SKILLS:
+Build applications, design software components, work with databases,
+write maintainable code, use version control and test software.
+
+LEARNING PRIORITY:
+1. Programming fundamentals
+2. Data Structures and Algorithms
+3. Object-Oriented Programming
+4. SQL and databases
+5. Git and software development
+6. System design fundamentals
+
+TYPICAL PROJECTS:
+Web applications, backend systems, automation tools,
+database applications and software products.

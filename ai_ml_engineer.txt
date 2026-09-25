@@ -1,0 +1,28 @@
+ROLE: AI/ML Engineer
+
+CORE SKILLS:
+Python, NumPy, Pandas, SQL, Statistics, Machine Learning, Deep Learning,
+Neural Networks, NLP, Transformers, PyTorch or TensorFlow,
+Model Evaluation, Git, APIs, Model Deployment, Docker.
+
+IMPORTANT CONCEPTS:
+Supervised learning, unsupervised learning, regression, classification,
+feature engineering, cross-validation, precision, recall, F1-score,
+neural networks, CNNs, transformers, embeddings and model deployment.
+
+PROJECT SKILLS:
+Build machine learning models, NLP applications, recommendation systems,
+computer vision systems, RAG applications and deploy models through APIs
+or web applications.
+
+LEARNING PRIORITY:
+1. Python and data handling
+2. Statistics and machine learning
+3. Deep learning
+4. NLP and transformers
+5. Model deployment
+6. MLOps fundamentals
+
+TYPICAL PROJECTS:
+NLP classification, recommendation systems, RAG applications,
+image classification, predictive analytics and AI-powered applications.

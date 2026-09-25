@@ -1,0 +1,31 @@
+ROLE: Data Scientist
+
+CORE SKILLS:
+Python, SQL, Statistics, Probability, Pandas, NumPy,
+Data Visualization, Machine Learning, Feature Engineering,
+Model Evaluation and Communication.
+
+IMPORTANT CONCEPTS:
+Exploratory data analysis, hypothesis testing, regression,
+classification, clustering, feature engineering, cross-validation,
+statistical analysis and data visualization.
+
+TOOLS:
+Python, Pandas, NumPy, Scikit-learn, Matplotlib, SQL and Jupyter.
+
+PROJECT SKILLS:
+Clean real-world datasets, discover patterns, build predictive models,
+evaluate models and communicate findings through visualizations.
+
+LEARNING PRIORITY:
+1. Python
+2. SQL
+3. Statistics
+4. Exploratory data analysis
+5. Machine learning
+6. Visualization
+7. Advanced machine learning
+
+TYPICAL PROJECTS:
+Customer churn prediction, sales forecasting, recommendation systems,
+customer segmentation and predictive analytics.

@@ -1,0 +1,29 @@
+ROLE: Data Analyst
+
+CORE SKILLS:
+SQL, Excel, Python, Pandas, Statistics, Data Cleaning,
+Data Visualization and Business Communication.
+
+IMPORTANT CONCEPTS:
+Data cleaning, exploratory data analysis, descriptive statistics,
+aggregations, joins, filtering, dashboards and data storytelling.
+
+TOOLS:
+SQL, Excel, Python, Pandas, Power BI or Tableau.
+
+PROJECT SKILLS:
+Transform raw data into useful insights, create dashboards,
+identify trends and communicate findings clearly.
+
+LEARNING PRIORITY:
+1. Excel
+2. SQL
+3. Data cleaning
+4. Statistics
+5. Python and Pandas
+6. Visualization
+7. Dashboard development
+
+TYPICAL PROJECTS:
+Business dashboards, sales analysis, customer analysis,
+marketing analytics and financial data analysis.

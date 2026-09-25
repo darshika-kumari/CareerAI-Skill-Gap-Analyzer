@@ -1,0 +1,34 @@
+DARSHIKA — SAMPLE RESUME
+
+EDUCATION
+B.Tech in Computer Science and Engineering (Data Science)
+
+TECHNICAL SKILLS
+Python
+C++
+C
+Java
+Machine Learning
+Data Science
+Pandas
+NumPy
+SQL
+Data Visualization
+Natural Language Processing
+BERT
+Git
+HTML
+CSS
+JavaScript
+
+PROJECTS
+Student Performance Prediction using Machine Learning
+Fake News Detection using BERT
+
+CAREER INTEREST
+Artificial Intelligence
+Machine Learning
+Data Science
+
+CURRENT LEVEL
+Beginner to Intermediate
