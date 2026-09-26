@@ -323,6 +323,66 @@ career_skill_requirements = {
 
 
 # ============================================================
+# SKILL NORMALIZATION
+# ============================================================
+
+skill_aliases = {
+
+    "natural language processing": "nlp",
+    "natural language processing (nlp)": "nlp",
+
+    "machine learning": "machine learning",
+    "ml": "machine learning",
+
+    "deep learning": "deep learning",
+    "dl": "deep learning",
+
+    "neural network": "neural networks",
+    "neural networks": "neural networks",
+
+    "bert": "transformers",
+    "hugging face transformers": "transformers",
+
+    "application programming interface": "api",
+    "apis": "api",
+
+    "version control": "git",
+    "github": "git",
+
+    "data processing": "data processing",
+    "data preprocessing": "data processing",
+
+    "model evaluation": "model evaluation",
+    "model validation": "model evaluation",
+
+    "deployment": "deployment",
+    "model deployment": "deployment",
+
+    "docker": "docker",
+
+    "data analysis": "data analysis",
+    "data analytics": "data analysis",
+
+    "data visualization": "data visualization",
+
+    "numpy": "numpy",
+    "pandas": "pandas",
+
+    "c++": "c++",
+    "cpp": "c++"
+}
+
+
+def normalize_skill(skill):
+
+    skill = skill.lower().strip()
+
+    return skill_aliases.get(skill, skill)
+
+    
+
+
+# ============================================================
 # SEMANTIC SEARCH
 # ============================================================
 
