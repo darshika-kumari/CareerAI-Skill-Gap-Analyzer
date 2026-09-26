@@ -500,7 +500,7 @@ for category, skills in candidate_profile["skills"].items():
         # ----------------------------------------------------
         # Skill gap analysis
         # ----------------------------------------------------
-requirements = career_skill_requirements[target_career]
+       requirements = career_skill_requirements[target_career]
 
         matched = []
         missing = []
