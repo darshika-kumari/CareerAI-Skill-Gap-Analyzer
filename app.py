@@ -85,19 +85,10 @@ index = faiss.read_index(index_path)
 # ============================================================
 
 @st.cache_resource
-def load_llm():
 
-    model_name = "Qwen/Qwen2.5-1.5B-Instruct"
 
-    tokenizer = AutoTokenizer.from_pretrained(model_name)
-
-    model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        torch_dtype=torch.float16 if torch.cuda.is_available() else torch.float32,
-        device_map="auto"
-    )
-
-    return tokenizer, model
+    def load_llm():
+    return None
 
 
 # ============================================================
