@@ -358,7 +358,7 @@ def search_career_knowledge(query, top_k=2):
 # LLM RESPONSE
 # ============================================================
 
-    ]
+    
 
     formatted_prompt = tokenizer.apply_chat_template(
         messages,
