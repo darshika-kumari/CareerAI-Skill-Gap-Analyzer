@@ -37,8 +37,8 @@ st.divider()
 # PATHS
 # ============================================================
 
-PROJECT_PATH = "/content/drive/MyDrive/CareerAI_Final_Project"
-KNOWLEDGE_PATH = os.path.join(PROJECT_PATH, "knowledge_base")
+PROJECT_PATH = "."
+KNOWLEDGE_PATH = "."
 
 
 # ============================================================
