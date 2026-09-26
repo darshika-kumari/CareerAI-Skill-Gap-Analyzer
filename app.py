@@ -85,11 +85,8 @@ index = faiss.read_index(index_path)
 # ============================================================
 
 @st.cache_resource
-
-
-    def load_llm():
+def load_llm():
     return None
-
 
 # ============================================================
 # PDF TEXT EXTRACTION
