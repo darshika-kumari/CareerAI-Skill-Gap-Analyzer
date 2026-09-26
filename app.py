@@ -488,11 +488,13 @@ if uploaded_file:
 
         candidate_skills = set()
 
-        for category, skills in candidate_profile["skills"].items():
+for category, skills in candidate_profile["skills"].items():
 
-            for skill in skills:
+    for skill in skills:
 
-                candidate_skills.add(skill.lower())
+        candidate_skills.add(
+            normalize_skill(skill)
+        )
 
 
         # ----------------------------------------------------
@@ -507,11 +509,13 @@ if uploaded_file:
 
         for required_skill in requirements:
 
-            if required_skill in candidate_skills:
-                matched.append(required_skill)
+    normalized_required = normalize_skill(required_skill)
 
-            else:
-                missing.append(required_skill)
+    if normalized_required in candidate_skills:
+        matched.append(required_skill)
+
+    else:
+        missing.append(required_skill)
 
 
         # ----------------------------------------------------
