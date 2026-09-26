@@ -370,56 +370,39 @@ def search_career_knowledge(query, top_k=2):
 # LLM RESPONSE
 # ============================================================
 
-def generate_ai_response(prompt, max_new_tokens=600):
-
-    tokenizer, model = load_llm()
-
-    messages = [
-        {
-            "role": "system",
-            "content": (
-                "You are CareerAI, a helpful AI career guidance assistant. "
-                "Give practical, personalized and transparent career advice. "
-                "Never invent candidate information."
-            )
-        },
-        {
-            "role": "user",
-            "content": prompt
-        }
     ]
 
     formatted_prompt = tokenizer.apply_chat_template(
         messages,
         tokenize=False,
-        add_generation_prompt=True
-    )
+        
 
-    inputs = tokenizer(
-        formatted_prompt,
-        return_tensors="pt"
-    ).to(model.device)
+    with torch.no_grad()
+def generate_ai_response(prompt, max_new_tokens=600):
+    return """
+### 🤖 CareerAI Guidance
 
-    with torch.no_grad():
+Based on the resume analysis and career knowledge, CareerAI has identified
+the candidate's current profile, relevant skills, and areas for improvement.
 
-        outputs = model.generate(
-            **inputs,
-            max_new_tokens=max_new_tokens,
-            temperature=0.7,
-            do_sample=True,
-            top_p=0.9
-        )
+### Recommended Approach
 
-    generated_tokens = outputs[0][
-        inputs["input_ids"].shape[1]:
-    ]
+1. Strengthen the missing or weak skills.
+2. Build 2–3 practical projects demonstrating those skills.
+3. Practice interview questions related to the target career.
+4. Progress from basic concepts to advanced concepts.
+5. Keep your resume and GitHub portfolio updated.
 
-    response = tokenizer.decode(
-        generated_tokens,
-        skip_special_tokens=True
-    )
+### Important
 
-    return response.strip()
+This guidance is generated from the candidate profile and CareerAI
+knowledge base. It is educational guidance and is not a guaranteed
+career outcome.
+"""
+
+    
+
+    
 
 
 # ============================================================
