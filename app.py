@@ -500,22 +500,19 @@ for category, skills in candidate_profile["skills"].items():
         # ----------------------------------------------------
         # Skill gap analysis
         # ----------------------------------------------------
-
-        requirements = career_skill_requirements[target_career]
+requirements = career_skill_requirements[target_career]
 
         matched = []
-
         missing = []
 
         for required_skill in requirements:
 
-    normalized_required = normalize_skill(required_skill)
+            normalized_required = normalize_skill(required_skill)
 
-    if normalized_required in candidate_skills:
-        matched.append(required_skill)
-
-    else:
-        missing.append(required_skill)
+            if normalized_required in candidate_skills:
+                matched.append(required_skill)
+            else:
+                missing.append(required_skill)
 
 
         # ----------------------------------------------------
