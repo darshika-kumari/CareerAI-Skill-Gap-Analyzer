@@ -360,12 +360,7 @@ def search_career_knowledge(query, top_k=2):
 
     
 
-    formatted_prompt = tokenizer.apply_chat_template(
-        messages,
-        tokenize=False,
-    ) 
 
-    with torch.no_grad()
 def generate_ai_response(prompt, max_new_tokens=600):
     return """
 ### 🤖 CareerAI Guidance
