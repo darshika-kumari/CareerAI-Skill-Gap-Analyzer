@@ -485,17 +485,15 @@ if uploaded_file:
         # ----------------------------------------------------
         # Candidate skills
         # ----------------------------------------------------
-
         candidate_skills = set()
 
-for category, skills in candidate_profile["skills"].items():
+        for category, skills in candidate_profile["skills"].items():
 
-    for skill in skills:
+            for skill in skills:
 
-        candidate_skills.add(
-            normalize_skill(skill)
-        )
-
+                candidate_skills.add(
+                    normalize_skill(skill)
+                )
 
         # ----------------------------------------------------
         # Skill gap analysis
